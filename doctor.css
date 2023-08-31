@@ -1,0 +1,257 @@
+/* Navbar starting  */
+
+#ulnav{
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 200px;
+margin-top: -72px;
+}
+#linav{
+    float: left;
+    margin: 10px;
+    list-style: none;
+}
+#anav{
+    text-decoration: none;
+    color: gray !important;
+    font-size: 22px;
+}
+.dropeddown{
+    background: none !important;
+    color: gray !important;
+    border: none !important;
+}
+
+.icons2{
+    float: right;
+    margin-right: 29px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.icobn{
+    margin: 5px;
+    color: #000000;
+}
+.footer{
+    color:#fff;
+    background-color: #0d2857;
+  }
+  
+  .list-style{
+    list-style-type:none!important;
+    cursor:pointer;
+    font-size:.75rem;
+    opacity:.8;
+  }
+  .copy-right{
+    font-size:.75rem;
+    opacity:.8;
+  }
+  .Analyst {
+    width: 87.7px;
+    height: 23.7px;
+    margin: 10.7px 0 5.2px 10.2px;
+    color: #fff;
+  }
+  .footer {
+    color: #fff;
+    margin-top: 114px;
+    background-color: #252525;
+}
+
+.dropdown-menu{
+    transition-duration: 120ms !important;
+
+
+}
+
+.dropdown-toggle {
+    font-size: 21px !important;
+   
+}
+.dropdown{
+    margin-top: -6px;
+    
+}
+#logo{
+    height: 100px;
+margin-left: 30px;
+cursor: pointer;
+ 
+}
+.navsearch {
+    width: 230px !important;
+    margin-left: 707px;
+    margin-top: 3px;
+}
+
+.btn-outline-success {
+    color: #0AD0CB !important;
+    border-color: #13cdc8 !important;
+}
+
+.btn-outline-success:hover {
+    background-color: #0AD0CB !important;
+    border-color: white !important;
+    color: white !important;
+}
+
+/* Navbar Ending  */
+
+/* Cards starting */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slider-container {
+    display: flex;
+    align-items: center;
+    width: 404px;
+    overflow: hidden;
+    padding: 11px;
+    height: 979px;
+    margin-left: 29px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px;
+}
+
+.card img {
+    max-width: 100px;
+    height: auto;
+}
+
+.arrows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 27px;
+    border-radius: 25px;
+    background: #00C2FF;
+    color: white;
+    cursor: pointer; transition-duration: 120ms;
+}
+.arrows:active{
+    transform: scale(1.2);
+
+}
+
+.hidden {
+    display: none;
+}
+.cardbtn{
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #107899;
+    background: transparent;
+    transition-duration: 120ms;
+    border: 2px solid #00C2FF;
+    
+}
+.cardbtn:hover{
+    background: #00C2FF;
+    border: 2px solid #ffffff;
+    color: white;
+    
+}
+.cardbtn:active{
+    transform: scale(1.2);
+}
+.topcarded{
+    margin-top: 1866px;
+}
+.cardbtn.selected {
+    background-color: #02c1fb;
+    color: white;
+}
+/* cards ending  */
+
+/* Input Starting */
+.allinputs{
+    width: 100%;
+    background: #f1f1f1;
+    height: 100%;
+    border-radius: 21px;
+}
+.realbody{
+    background: linear-gradient(128deg, #00dcff, #158fcd);
+    width: 1000px;
+    height: 934px;
+    padding: 35px;
+    float: right;
+    margin-top: -970px;
+    margin-right: 70px;
+    border-radius: 24px;
+}
+#doctorsBtn{
+    
+    text-align: center;
+    color: #06c2ee;
+
+}
+.docinput{
+    background: transparent;
+    border: 1px solid #37B5FF;
+    width: 349px;
+    border-radius: 7px;
+    height: 36px;
+    margin-left: 84px;
+    margin-top: 37px;
+    transition-duration: 120ms;
+    padding: 10px;
+    color: #37B5FF;
+
+    
+}
+.docinput::placeholder{
+    color: #37B5FF;
+}
+.docinput:focus{
+    border: 1px  #37B5FF;
+    transform: scale(1.1);
+    
+}
+.einput{
+    width: 787px;
+}
+.textdoc{
+    width: 787px;
+    height: 283px;
+max-width: 283px;
+min-width: 283px;
+    max-width:787px ;
+    min-width:787px ;
+}
+.isubmit{
+    width: 222px;
+    height: 44px;
+    background: transparent;
+    border: 2px solid #37B5FF;
+    color: #37B5FF;
+    margin-left: 360px;
+    margin-top: 53px;
+    transition-duration: 0.8s;
+
+}
+.isubmit:hover{
+background-color: #37B5FF;
+color: white;
+
+}
+.isubmit:active{
+    transform: scale(1.2);
+}

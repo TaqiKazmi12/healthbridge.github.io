@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctors</title>
+    <link rel="stylesheet" href="doctor.css">
+    <script src="https://kit.fontawesome.com/0f782209b9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+</head>
+<body>
+ <!-- NavBar starting  -->
+    
+ <section id="navbar"  >
+    <img src="logo.png"  id="logo">
+<ul id="ulnav">
+<li id="linav"><a href="home.html" id="anav">Home</a></li>
+<li id="linav"><a href="" id="anav"><div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle dropeddown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Doctors
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="dr.html">Doctors</a></li>
+      <li><a class="dropdown-item" href="doctor.html">Set appointment</a></li>
+    </ul>
+  </div> </a></li>
+<li id="linav"><a href="aboutus.html" id="anav">About us</a></li>
+<div class="icons2" >
+    <a href="contact1.html" class="icobn"><i class="fa-solid fa-phone-volume"></i></a>
+    <a href="signin.html" class="icobn"><i class="fa-solid fa-user"></i></a>
+    </div>
+
+</ul>
+    </section>
+    <!-- Navbar ending  -->
+
+    <!-- Cards Starting  -->
+
+    <section class="cardouterbody">
+        <section class="slider-container" id="sliderContainer">
+            <div class="arrows prev-arrow">&uarr;</div>
+            <div class="slider" id="slider">
+                <div class="card topcarded">
+                    <img src="Sarah.jpg" alt="Doctor 1">
+                    <h3>Dr. Sarah Johnson</h3>
+                    <p>Specialty: Pediatrics</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="micd.jfif" alt="Doctor 2">
+                    <h3>Dr. Michael Smith</h3>
+                    <p>Specialty: Orthopedics</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="emily.jpg" alt="Doctor 3">
+                    <h3>Dr. Emily Williams</h3>
+                    <p>Specialty: Dermatology</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="robert.jpeg" alt="Doctor 4">
+                    <h3>Dr. Robert Brown</h3>
+                    <p>Specialty: Cardiology</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+
+                <div class="card">
+                    <img src="jann.png" alt="Doctor 4">
+                    <h3>Dr. Jennifer Davis</h3>
+                    <p>Specialty: Cardiology</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="david.jpg" alt="Doctor 4">
+                    <h3>Dr. David Miller</h3>
+                    <p>Specialty: Neurology</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="jessica.jpg" alt="Doctor 4">
+                    <h3>Dr. Jessica Martinez</h3>
+                    <p>Specialty:  Family Medicine</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="dan.png" alt="Doctor 4">
+                    <h3>Dr. Daniel Wilson</h3>
+                    <p>Specialty: Ophthalmology</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="laura.png" alt="Doctor 4">
+                    <h3>Dr. Laura Anderson</h3>
+                    <p>Specialty: Psychiatry</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+                <div class="card">
+                    <img src="chris.png" alt="Doctor 4">
+                    <h3>Dr. Christopher Lee</h3>
+                    <p>Specialty: Gastroenterology</p>
+                    <button class="cardbtn">Select</button>
+                </div>
+ 
+            </div>
+            <div class="arrows next-arrow">&darr;</div>
+        </section>
+    </section>
+    <!-- Cards Ending  -->
+
+
+   <section class="realbody" >
+<div class="allinputs" >
+    <form action="" id="myForm" >
+        <h1 class="changedwithslected" id="doctorsBtn">Please Select your doctor</h1>
+        <input class="docinput" type="text" placeholder="First Name" id="firstName" required>
+        <input class="docinput linput" type="text" placeholder="Last Name" id="lastName" required>
+        <input class="docinput einput" type="text" placeholder="Address" id="address" required>
+        <input class="docinput ninput" type="text" placeholder="Phone Number" id="phoneNumber" required>
+        <input class="docinput dinput" type="date" placeholder="Date" id="date" required>
+        <textarea class="docinput textdoc" placeholder="Symptoms" id="symptoms" required></textarea>
+        <button class="isubmit" id="submitButton">Submit</button>
+      </form>
+</div>
+
+
+
+   </section>
+
+
+   <!-- Footer -->
+
+<footer class="text-center footer text-center">
+    <div class="container p-4">
+      
+        <div class="row  text-md-start mt-5">
+          
+            <!--Logo Start-->
+          <div class="col-md-4 ">
+            <h4 class="pb-3">Health <span class="Analyst">Bridge </span></h4>
+            
+            <p class="copy-right"> Copyright © 2008-2019 RPX Corporation. All Rights Reserved.</p>
+          </div>
+          <!--Logo end-->
+          
+            <!--Solutions Start-->
+          <div class="col-md-3">
+           <h5 class="pb-3">Solutions </h5>
+            <ul class="list-style ps-0 ">
+              <li class="pb-3">Patent Licensing and Acquisition</li>
+              <li class="pb-3">Portfolio Management and Monetization</li>
+              <li class="pb-3">R&D / Market Intelligence</li>
+              <li class="pb-3">M&A Opportunity and Due Diligence</li>
+              <li class="pb-3">Litigation Risk Assessment and Strategy</li>
+              <li class="pb-3">
+                Patent Prosecution
+              </li>
+            </ul>
+          </div>
+          <!--Solutions end-->
+          
+            
+            <!--Quick links Start-->
+          <div class="col-md-3 ">
+           <h5 class="pb-3"> Links </h5>
+            <ul class="list-style ps-0">
+              <li class="pb-3"><a href="/home.html">Home</a></li>
+              <li class="pb-3"><a href="/doctor.html">Appointment</a></li>
+              <li class="pb-3"><a href="/dr.html">Doctors</a></li>
+            </ul>
+          </div>
+          <!--QUick links end-->
+         
+          <!--Other Start-->
+          <div class="col-md-2 ">
+           <h5 class="pb-3"> Other </h5>
+            <ul class="list-style ps-0">
+              <li class="pb-3">Privacy Policy</li>
+              <li class="pb-3">Terms of Use</li>
+              <li class="pb-3"><a href="/aboutus.html">About us</a></li>
+              <li class="pb-3"><a href="/contact1.html">Contact us</a></li>
+            </ul>
+          </div>
+          <!--Other end-->
+        </div>
+      
+    </div>
+  </footer>
+  
+  
+  <!-- Footer  -->
+
+
+
+
+
+    <script>
+
+const submitButton = document.getElementById("submitButton");
+
+submitButton.addEventListener("click", function (event) {
+  event.preventDefault();
+  validateForm();
+});
+
+function validateForm() {
+  const form = document.getElementById("myForm"); // Replace "myForm" with the actual ID of your form
+  const firstNameInput = document.getElementById("firstName");
+  const lastNameInput = document.getElementById("lastName");
+  const phoneNumberInput = document.getElementById("phoneNumber");
+  const addressInput = document.getElementById("address");
+  const dateInput = document.getElementById("date");
+  const symptomsInput = document.getElementById("symptoms");
+  
+  const selectedDoctor = document.querySelector(".selected");
+  if (!selectedDoctor) {
+    alert("Please select a doctor before submitting.");
+    return;
+  }
+
+  let isValid = true;
+
+  if (!/^[A-Za-z]+$/.test(firstNameInput.value)) {
+    firstNameInput.style.border = "1px solid red";
+    isValid = false;
+  } else {
+    firstNameInput.style.border = "1px solid green";
+  }
+
+  if (!/^[A-Za-z]+$/.test(lastNameInput.value)) {
+    lastNameInput.style.border = "1px solid red";
+    isValid = false;
+  } else {
+    lastNameInput.style.border = "1px solid green";
+  }
+
+  if (!/^\d{11}$/.test(phoneNumberInput.value)) {
+    phoneNumberInput.style.border = "1px solid red";
+    isValid = false;
+    phoneNumberInput.setCustomValidity("Phone number must have exactly 11 digits.");
+  } else {
+    phoneNumberInput.style.border = "1px solid green";
+    phoneNumberInput.setCustomValidity("");
+  }
+
+  if (!addressInput.value) {
+    addressInput.style.border = "1px solid red";
+    isValid = false;
+  } else {
+    addressInput.style.border = "1px solid green";
+  }
+
+  if (!dateInput.value) {
+    dateInput.style.border = "1px solid red";
+    isValid = false;
+  } else {
+    dateInput.style.border = "1px solid green";
+  }
+
+  if (!symptomsInput.value) {
+    symptomsInput.style.border = "1px solid red";
+    isValid = false;
+  } else {
+    symptomsInput.style.border = "1px solid green";
+  }
+
+  if (isValid) {
+    // Form submission logic
+    alert("Form submitted successfully!");
+    form.reset();
+    resetBorders();
+  }
+}
+
+function resetBorders() {
+  const inputs = document.querySelectorAll(".docinput");
+  inputs.forEach((input) => {
+    input.style.border = "1px solid #ccc";
+  });
+}
+
+
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+    const doctorsBtn = document.getElementById("doctorsBtn");
+    const cardButtons = document.querySelectorAll(".cardbtn");
+
+    cardButtons.forEach((button, index) => {
+        button.addEventListener("click", () => {
+            updateHeading(index);
+        });
+    });
+
+    function updateHeading(selectedIndex) {
+        const doctors = [
+            "Dr. Sarah Johnson",
+            "Dr. Michael Smith",
+            "Dr. Emily Williams",
+            "Dr. Robert Brown",
+            "Dr. Jennifer Davis",
+            "Dr. David Miller",
+            "Dr. Jessica Martinez",
+            "Dr. Daniel Wilson",
+            "Dr. Laura Anderson",
+            "Dr. Christopher Lee"
+        ];
+
+        if (selectedIndex === -1) {
+            fadeOutAndChangeText("Please Select your doctor");
+        } else {
+            fadeOutAndChangeText(doctors[selectedIndex]);
+        }
+    }
+
+    function fadeOutAndChangeText(newText) {
+        doctorsBtn.style.opacity = 0;
+
+        setTimeout(() => {
+            doctorsBtn.textContent = newText;
+            fadeIn(doctorsBtn);
+        }, 300);
+    }
+
+    function fadeIn(element) {
+        let opacity = 0;
+
+        const interval = setInterval(() => {
+            if (opacity >= 1) {
+                clearInterval(interval);
+            }
+
+            element.style.opacity = opacity;
+            opacity += 0.1;
+        }, 30);
+    }
+});
+
+        
+    document.addEventListener("DOMContentLoaded", () => {
+    const sliderContainer = document.getElementById("sliderContainer");
+    const slider = document.getElementById("slider");
+    const cardHeight = slider.firstElementChild.offsetHeight;
+    const visibleCards = Math.floor(sliderContainer.offsetHeight / cardHeight);
+    let currentIndex = 0;
+
+    updateArrows();
+
+    document.querySelector(".prev-arrow").addEventListener("click", () => {
+        currentIndex = Math.max(currentIndex - 1, 0);
+        updateSliderPosition();
+    });
+
+    document.querySelector(".next-arrow").addEventListener("click", () => {
+        currentIndex = Math.min(currentIndex + 1, slider.children.length - visibleCards);
+        updateSliderPosition();
+    });
+
+    sliderContainer.addEventListener("wheel", (event) => {
+        if (event.deltaY < 0) {
+            currentIndex = Math.max(currentIndex - 1, 0);
+        } else {
+            currentIndex = Math.min(currentIndex + 1, slider.children.length - visibleCards);
+        }
+        updateSliderPosition();
+    });
+
+    function updateSliderPosition() {
+        const translateY = -currentIndex * cardHeight;
+        slider.style.transform = `translateY(${translateY}px)`;
+        updateArrows();
+    }
+
+    function updateArrows() {
+        document.querySelector(".prev-arrow").style.visibility = currentIndex > 0 ? "visible" : "hidden";
+        document.querySelector(".next-arrow").style.visibility = currentIndex < slider.children.length - visibleCards ? "visible" : "hidden";
+    }
+});
+
+// ... (previous code) ...
+
+document.addEventListener("DOMContentLoaded", () => {
+    const sliderContainer = document.getElementById("sliderContainer");
+    const slider = document.getElementById("slider");
+    const cardHeight = slider.firstElementChild.offsetHeight;
+    const visibleCards = Math.floor(sliderContainer.offsetHeight / cardHeight);
+    let currentIndex = 0;
+    let selectedDoctorIndex = -1; // Initialize with no doctor selected
+
+    updateArrows();
+
+    document.querySelector(".prev-arrow").addEventListener("click", () => {
+        currentIndex = Math.max(currentIndex - 1, 0);
+        updateSliderPosition();
+    });
+
+    document.querySelector(".next-arrow").addEventListener("click", () => {
+        currentIndex = Math.min(currentIndex + 1, slider.children.length - visibleCards);
+        updateSliderPosition();
+    });
+
+    sliderContainer.addEventListener("wheel", (event) => {
+        if (event.deltaY < 0) {
+            currentIndex = Math.max(currentIndex - 1, 0);
+        } else {
+            currentIndex = Math.min(currentIndex + 1, slider.children.length - visibleCards);
+        }
+        updateSliderPosition();
+    });
+
+    slider.addEventListener("click", (event) => {
+        const card = event.target.closest(".card");
+        if (!card) return;
+
+        const cardIndex = Array.from(slider.children).indexOf(card);
+        if (cardIndex === -1) return;
+
+        if (selectedDoctorIndex !== -1) {
+            slider.children[selectedDoctorIndex].querySelector(".cardbtn").classList.remove("selected");
+        }
+
+        selectedDoctorIndex = cardIndex;
+        card.querySelector(".cardbtn").classList.add("selected");
+    });
+
+    function updateSliderPosition() {
+        const translateY = -currentIndex * cardHeight;
+        slider.style.transform = `translateY(${translateY}px)`;
+        updateArrows();
+    }
+
+    function updateArrows() {
+        document.querySelector(".prev-arrow").style.visibility = currentIndex > 0 ? "visible" : "hidden";
+        document.querySelector(".next-arrow").style.visibility = currentIndex < slider.children.length - visibleCards ? "visible" : "hidden";
+    }
+});
+
+
+    </script>
+    
+
+
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+</body>
+</html>

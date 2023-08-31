@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthBridge</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="homeres.css">
+    <script src="https://kit.fontawesome.com/0f782209b9.js" crossorigin="anonymous"></script>
+    
+    
+
+</head>
+<body onload="load()">
+
+
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+</div>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+<!-- header starting  -->
+    <header>
+<section id="header" >
+
+  <div class="navstick" >
+  <section id="navbar"  >
+    <img src="logo.png"  id="logo">
+<ul id="ulnav">
+<li id="linav"><a href="home.html" id="anav">Home</a></li>
+<li id="linav"><a href="" id="anav"><div class="dropdown">
+    <a class="btn btn-secondary dropdown-toggle dropeddown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+      Doctors
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+      <li><a class="dropdown-item" href="dr.html">Doctors</a></li>
+      <li><a class="dropdown-item" href="doctor.html">Set appointment</a></li>
+    </ul>
+  </div> </a></li>
+<li id="linav"><a href="aboutus.html" id="anav">About us</a></li>
+<div class="icons2" >
+<a href="contact1.html" class="icobn"><i class="fa-solid fa-phone-volume"></i></a>
+<a href="signin.html" class="icobn"><i class="fa-solid fa-user"></i></a>
+</div>
+</ul>
+    </section>
+  </div>
+  <h1 id="headerheading" >HealthBridge</h1>
+  <h1 id="headerheading2">Limitless Care</h1>
+  <a href="aboutus.html">
+  <button id="headerbtn">Learn more</button>
+</a>
+  <video autoplay muted loop id="header-video">
+    <source src="videoplayback.mp4" type="video/mp4">
+  
+</video>
+</section>
+
+<div id="cards">
+  <div class="card fadecard" id="card1">
+    <div class="circle c1"><i class="fa-solid fa-user-doctor doctoricon"></i></div>
+    <h1 class="cardsheading">Qualified Doctors</h1>
+    <p class="cardp">Our platform connects you with qualified doctors who have undergone rigorous training and possess extensive experience in their respective fields.</p>
+  </div>
+  <div class="card fadecard" id="card2">
+    <div class="circle c2"><i class="fa-solid fa-truck-medical ambu"></i></div>
+    <h1 class="cardsheading cardsh2">Emergency Service</h1>
+    <p class="cardp">When every second counts, trust our emergency service to provide swift and expert care, bringing you peace of mind in times of urgency.</p>
+  </div>
+  <div class="card fadecard" id="card3">
+    <div class="circle c3"><i class="fa-solid fa-comments comment"></i></div>
+    <h1 class="cardsheading cardsh3">Global Network</h1>
+    <p class="cardp">Experience the strength of a global network, bringing together a collective wealth of medical knowledge and expertise to serve your healthcare needs.</p>
+  </div>
+  <div class="card fadecard" id="card4">
+    <div class="circle c4">
+      <i class="fa-solid fa-clock-rotate-left hist"></i>
+    </div>
+    <div class="somethingidk" >
+    <h1 class="cardsheading cardsh4">24-Hours Service</h1>
+    <p class="cardp cardp2">Experience the convenience of round-the-clock service, ensuring that healthcare is available to you whenever you need it.</p>
+  </div>
+  </div>
+</div>
+    </header>
+   
+
+<!-- Header ending  -->
+
+<!-- Below Header starting  -->
+
+<section class="belowheader" >
+
+  <div class="bhs" >
+<h1 class="bh1" >Around The</h1>
+<h1 class="bh1 bh2" >Globe!!</h1>
+<p class="bhp" >Effortlessly schedule appointments, hassle-free, no matter where you are,Choose from a wide range of specialists and fields, spanning the globe,A global network of doctors, just a few clicks away, at your convenience,Your well-being, their priority, as your health yields, worldwide.</p>
+
+  </div>
+  <img src="belowHeader.png" class="bhimg fade-in">
+
+</section>
+<!-- Below Header ending  -->
+
+<!-- Our survice starting  -->
+<section class="ours">
+  <h1 class="oh">Our</h1>
+  <h1 class="oh oh2">Services</h1>
+  <div class="ourc ourc1 fade-in-up">
+    <img class="ourimg1" src="medicalteam.png">
+    <h1 class="ourh">Reliable</h1>
+    <p class="ourp">With our reliable online appointment system, you can avoid the uncertainty of traditional scheduling and enjoy seamless healthcare coordination.</p>
+  </div>
+  <div class="ourc ourc2 fade-in-up">
+    <img class="ourimg1" src="Group 1.png">
+    <h1 class="ourh">Global</h1>
+    <p class="ourp">Connect with doctors from around the globe, ensuring a truly global healthcare experience.</p>
+  </div>
+  <div class="ourc ourc3 fade-in-up">
+    <img class="ourimg1" src="diagnosis 2.png">
+    <h1 class="ourh">Expert</h1>
+    <p class="ourp">Our platform connects you with expert healthcare professionals who are dedicated to delivering personalized and comprehensive care.</p>
+  </div>
+  <img src="image 5.png" class="ourmainimg fade-in-up">
+</section>
+
+<!-- Our survice ending  -->
+
+
+<!-- Provide starting  -->
+
+<section class="provide" >
+  <div class="shellbody fade-in-scale">
+    <div class="outershell">
+      <div class="innershill">
+        <p class="prop" id="propud">Experience the epitome of excellence with our exceptional services, tailored to meet your every need. Our unwavering dedication to excellence ensures that you receive the highest level of service, delivering unparalleled satisfaction.</p>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="control1">
+    <button class="prob1 prob11 fade-in-up" id="pbt1" onclick="prob1b()">
+      <i class="fa-solid fa-hand-holding-medical"></i>
+      <h5 class="probh">Medical</h5>
+    </button><br>
+    <button class="prob1 prob2 fade-in-up" id="pbt2" onclick="prob2b()">
+      <i class="fa-solid fa-tooth"></i>
+      <h5 class="probh">Dental</h5>
+    </button><br>
+    <button class="prob1 prob3 fade-in-up" id="pbt3" onclick="prob3b()">
+      <i class="fa-regular fa-circle-check"></i>
+      <h5 class="probh">Privacy</h5>
+    </button><br>
+  </div>
+  <div class="control2">
+    <button class="prob1 prob4 fade-in-up" id="pbt4" onclick="prob4b()">
+      <i class="fa-sharp fa-regular fa-gem"></i>
+      <h5 class="probh">Aesthetic</h5>
+    </button><br>
+    <button class="prob1 prob5 fade-in-up" id="pbt5" onclick="prob5b()">
+      <i class="fa-solid fa-user-doctor"></i>
+      <h5 class="probh">Comfort</h5>
+    </button><br>
+    <button class="prob1 prob6 fade-in-up" id="pbt6" onclick="prob6b()">
+      <i class="fa-solid fa-heart-pulse"></i>
+      <h5 class="probh">Health</h5>
+    </button>
+  </div>  
+
+
+
+
+
+
+</section>
+
+
+
+
+<!-- Provide ending  -->
+
+
+<!-- Total starting  -->
+
+<section class="totalbody" >
+
+<div class="totalboxes tbox1"><i class="fa-solid fa-users fontee" ></i><h1 id="testing" class="mainnumb" >0</h1><h4 class="maindownh">Patients</h4></div>
+<div class="totalboxes tbox2"><i class="fa-solid fa-briefcase-medical fontee fontee1"></i><h1 class="mainnumb" id="testing2">0</h1><h4 class="maindownh">Cases</h4></div>
+<div class="totalboxes tbox3"><i class="fa-solid fa-user-doctor fontee fontee2"></i><h1 class="mainnumb" id="testing3">0</h1><h4 class="maindownh">Doctors</h4></div>
+<div class="totalboxes tbox4"><i class="fa-solid fa-user-nurse fontee fontee3"></i><h1 class="mainnumb" id="testing4">0</h1><h4 class="maindownh">Nurses</h4></div>
+<h4 class="maindownh"></h4>
+
+
+</section>
+
+<!-- Total ending  -->
+
+
+
+<!-- last chapter starting  -->
+
+<section class="lc fade-in">
+  <h1 class="lch fade-in-down">HealthBridge - The New <br> Wave of Treatment</h1>
+  <img src="image 7.png" class="lcimg fade-in-right">
+  <p class="lcp fade-in-up">Put your health in capable hands with our experienced and compassionate doctors, who are committed to delivering exceptional care through online consultations. Join the countless satisfied patients who have experienced the benefits of our online doctor appointment service
+    <br><br><br>
+    where excellence in healthcare is our top priority.</p>
+</section>
+
+
+
+<!-- last chapter ending  -->
+
+
+<!-- Footer -->
+
+
+
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Health<span>Bridge</span></h3>
+
+        <p class="footer-links">
+          <a href="home.html" class="link-1">Home</a>
+          
+          <a href="dr.html">Doctors</a>
+        
+          <a href="doctor.html">Appointment</a>
+        
+          <a href="aboutus.html">About</a>
+          
+          <a href="signin.html">Signin</a>
+          
+          <a href="contact1.html">Contact</a>
+        </p>
+
+        <p class="footer-company-name">HealthBridge © 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1.555.555.5555</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">HealthBridge@company.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+          We help people set appointment though our website without going to doctor in real life
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
+
+
+
+
+<!-- Footer  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- bootrap links -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
+
+<script>
+  (function($) { "use strict";
+
+$(document).ready(function(){"use strict";
+
+		//Scroll back to top
+
+		var progressPath = document.querySelector('.progress-wrap path');
+		var pathLength = progressPath.getTotalLength();
+		progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+		progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+		progressPath.style.strokeDashoffset = pathLength;
+		progressPath.getBoundingClientRect();
+		progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';
+		var updateProgress = function () {
+			var scroll = $(window).scrollTop();
+			var height = $(document).height() - $(window).height();
+			var progress = pathLength - (scroll * pathLength / height);
+			progressPath.style.strokeDashoffset = progress;
+		}
+		updateProgress();
+		$(window).scroll(updateProgress);
+		var offset = 50;
+		var duration = 550;
+		jQuery(window).on('scroll', function() {
+			if (jQuery(this).scrollTop() > offset) {
+				jQuery('.progress-wrap').addClass('active-progress');
+			} else {
+				jQuery('.progress-wrap').removeClass('active-progress');
+			}
+		});
+		jQuery('.progress-wrap').on('click', function(event) {
+			event.preventDefault();
+			jQuery('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		})
+
+
+	});
+
+})(jQuery);
+window.addEventListener("scroll", function() {
+  let header = document.getElementsByClassName("navstick")[0]; // Select the first element
+  header.classList.toggle("sticky", window.scrollY > 0);
+});
+
+ function prob1b(){
+ centertext=document.getElementById("propud")
+ centertext.innerHTML="Experience compassionate and cutting-edge medical care from our skilled team, dedicated to your well-being. We prioritize a patient-centered approach, providing comprehensive treatments with the highest standards of professionalism.";
+document.getElementById("pbt1").style.background="#329acd38"
+
+document.getElementById("pbt2").style.background="none"
+document.getElementById("pbt3").style.background="none"
+document.getElementById("pbt4").style.background="none"
+document.getElementById("pbt5").style.background="none"
+document.getElementById("pbt6").style.background="none"
+
+
+
+ }
+ function prob2b(){
+ centertext=document.getElementById("propud")
+ centertext.innerHTML="Achieve a healthy and confident smile with our personalized dental care. Our dedicated dental professionals prioritize your dental wellness, offering comprehensive services delivered with precision and care, ensuring you enjoy the confidence of a healthy smile.";
+document.getElementById("pbt2").style.background="#329acd38"
+
+document.getElementById("pbt1").style.background="none"
+
+document.getElementById("pbt3").style.background="none"
+document.getElementById("pbt4").style.background="none"
+document.getElementById("pbt5").style.background="none"
+document.getElementById("pbt6").style.background="none"
+ }
+ function prob3b(){
+ centertext=document.getElementById("propud")
+ centertext.innerHTML="At HealthBridge, we prioritize your privacy and confidentiality, implementing robust security measures to safeguard your personal and medical information, ensuring a trusted and secure healthcare experience.";
+document.getElementById("pbt3").style.background="#329acd38"
+document.getElementById("pbt1").style.background="none"
+document.getElementById("pbt2").style.background="none"
+
+document.getElementById("pbt4").style.background="none"
+document.getElementById("pbt5").style.background="none"
+document.getElementById("pbt6").style.background="none"
+ }
+ function prob4b(){
+ centertext=document.getElementById("propud")
+ centertext.innerHTML="Discover the art of aesthetic enhancement with our comprehensive range of treatments, tailored to enhance your natural beauty and rejuvenate your appearance.";
+document.getElementById("pbt4").style.background="#329acd38"
+
+document.getElementById("pbt1").style.background="none"
+document.getElementById("pbt2").style.background="none"
+document.getElementById("pbt3").style.background="none"
+
+document.getElementById("pbt5").style.background="none"
+document.getElementById("pbt6").style.background="none"
+ }
+ function prob5b(){
+ centertext=document.getElementById("propud")
+ centertext.innerHTML="Experience the utmost comfort throughout your healthcare journey as we prioritize your well-being, providing a serene and relaxing environment where you can feel at ease.";
+document.getElementById("pbt5").style.background="#329acd38"
+document.getElementById("pbt1").style.background="none"
+document.getElementById("pbt2").style.background="none"
+document.getElementById("pbt3").style.background="none"
+document.getElementById("pbt4").style.background="none"
+
+document.getElementById("pbt6").style.background="none"
+ }
+ function prob6b(){
+ centertext=document.getElementById("propud")
+ centertext.innerHTML="Your health is our priority - we are dedicated to empowering you with the knowledge, support, and personalized care needed to achieve optimal well-being and live a healthy, fulfilling life.";
+document.getElementById("pbt6").style.background="#329acd38"
+document.getElementById("pbt1").style.background="none"
+document.getElementById("pbt2").style.background="none"
+document.getElementById("pbt3").style.background="none"
+document.getElementById("pbt4").style.background="none"
+document.getElementById("pbt5").style.background="none"
+
+ }
+
+   
+
+
+
+
+ 
+
+
+ function isElementVisible(el) {
+  var rect = el.getBoundingClientRect();
+  var viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+  return !(rect.bottom < 0 || rect.top - viewHeight >= 0);
+}
+
+function animateOnScroll(obj, initVal, lastVal, duration) {
+  let startTime = null;
+  let currentTime = Date.now();
+  let animationStarted = false;
+  let progress = 0;
+  const step = (currentTime) => {
+    if (!startTime) {
+      startTime = currentTime - progress * duration;
+    }
+    progress = Math.min((currentTime - startTime) / duration, 1);
+    obj.innerHTML = Math.floor(progress * (lastVal - initVal) + initVal);
+    if (progress < 1 && isElementVisible(obj)) {
+      window.requestAnimationFrame(step);
+    } else if (!isElementVisible(obj)) { // Check if element is no longer visible
+      animationStarted = false; // Reset the animation if element goes out of the screen
+    }
+  };
+  if (!animationStarted && isElementVisible(obj)) {
+    animationStarted = true;
+    window.requestAnimationFrame(step);
+  }
+}
+
+      
+let text1 = document.getElementById('testing');
+      let text2 = document.getElementById('testing2');
+      let text3 = document.getElementById('testing3');
+      let text4 = document.getElementById('testing4');
+window.addEventListener('scroll', function() {
+  animateOnScroll(text1, 0, 543, 7000);
+  animateOnScroll(text2, 0, 2400, 7000);
+  animateOnScroll(text3, 0, 45, 7000);
+  animateOnScroll(text4, 0, 34, 7000);
+});
+
+
+
+
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    } else {
+      entry.target.classList.remove('visible');
+    }
+  });
+});
+
+const image = document.querySelector('.bhimg');
+observer.observe(image);
+
+const cardObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+});
+
+const fadeCards = document.querySelectorAll('.fadecard');
+fadeCards.forEach(fadeCard => {
+  cardObserver.observe(fadeCard);
+});
+
+const fadeUpObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+});
+
+const fadeUpElements = document.querySelectorAll('.fade-in-up');
+fadeUpElements.forEach(element => {
+  fadeUpObserver.observe(element);
+});
+
+const buttonObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    } else {
+      entry.target.classList.remove('visible');
+    }
+  });
+});
+
+const buttons = document.querySelectorAll('.fade-in-up');
+buttons.forEach(button => {
+  buttonObserver.observe(button);
+});
+
+
+const sectionObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    } else {
+      entry.target.classList.remove('visible');
+    }
+  });
+});
+
+const animatedSections = document.querySelectorAll('.fade-in-scale');
+animatedSections.forEach(section => {
+  sectionObserver.observe(section);
+});
+
+
+const fadeInSectionObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('fade-in-section');
+      entry.target.querySelector('.lc-image').classList.add('fade-in-up');
+    } else {
+      entry.target.classList.remove('fade-in-section');
+      entry.target.querySelector('.lc-image').classList.remove('fade-in-up');
+    }
+  });
+});
+
+const lcSection = document.querySelector('.lc-section');
+fadeInSectionObserver.observe(lcSection);
+
+window.addEventListener("scroll", function() {
+  let backToTopBtn = document.getElementById("backToTopBtn");
+  if (window.scrollY > 300) {
+    backToTopBtn.style.opacity = "1";
+    backToTopBtn.style.visibility = "visible";
+  } else {
+    backToTopBtn.style.opacity = "0";
+    backToTopBtn.style.visibility = "hidden";
+  }
+});
+
+
+</script>
+</body>
+</html>
